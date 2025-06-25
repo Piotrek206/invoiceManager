@@ -1,0 +1,11 @@
+{
+  "name": "invoice-app",
+  "version": "1.0.0",
+  "description": "Invoice application with frontend and backend",  "scripts": {
+    "start": "cd frontend && npm start",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0"
+  }
+}

@@ -1,0 +1,47 @@
+2025-06-25T12:11:38.941+02:00  INFO 37568 --- [invoice] [main] com.demo.invoice.InvoiceApplication      : Starting InvoiceApplication using Java 21.0.6 with PID 37568 (C:\Users\Comarch\Documents\robo\Szkolenie_AI\01_app\invoice\backend\target\classes started by Comarch in C:\Users\Comarch\Documents\robo\Szkolenie_AI\01_app\invoice\backend)
+2025-06-25T12:11:38.943+02:00 DEBUG 37568 --- [invoice] [main] com.demo.invoice.InvoiceApplication      : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-06-25T12:11:38.943+02:00  INFO 37568 --- [invoice] [main] com.demo.invoice.InvoiceApplication      : No active profile set, falling back to 1 default profile: "default"
+2025-06-25T12:11:39.508+02:00  INFO 37568 --- [invoice] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-25T12:11:39.556+02:00  INFO 37568 --- [invoice] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2025-06-25T12:11:39.981+02:00  INFO 37568 --- [invoice] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-25T12:11:39.993+02:00  INFO 37568 --- [invoice] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-25T12:11:39.994+02:00  INFO 37568 --- [invoice] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-25T12:11:40.051+02:00  INFO 37568 --- [invoice] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-25T12:11:40.051+02:00  INFO 37568 --- [invoice] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1065 ms
+2025-06-25T12:11:40.187+02:00  INFO 37568 --- [invoice] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-25T12:11:40.232+02:00  INFO 37568 --- [invoice] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-06-25T12:11:40.260+02:00  INFO 37568 --- [invoice] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-25T12:11:40.499+02:00  INFO 37568 --- [invoice] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-25T12:11:40.528+02:00  INFO 37568 --- [invoice] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-25T12:11:40.682+02:00  INFO 37568 --- [invoice] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-06-25T12:11:40.684+02:00  INFO 37568 --- [invoice] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-25T12:11:40.734+02:00  INFO 37568 --- [invoice] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-25T12:11:41.392+02:00  INFO 37568 --- [invoice] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-25T12:11:41.447+02:00  INFO 37568 --- [invoice] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-25T12:11:41.708+02:00  INFO 37568 --- [invoice] [main] c.d.i.controller.InvoiceController       : InvoiceController initialized
+2025-06-25T12:11:41.733+02:00  WARN 37568 --- [invoice] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-25T12:11:41.965+02:00  INFO 37568 --- [invoice] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-06-25T12:11:42.038+02:00  INFO 37568 --- [invoice] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-25T12:11:42.044+02:00  INFO 37568 --- [invoice] [main] com.demo.invoice.InvoiceApplication      : Started InvoiceApplication in 3.533 seconds (process running for 3.846)
+2025-06-25T12:11:59.216+02:00  INFO 37568 --- [invoice] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-25T12:11:59.217+02:00  INFO 37568 --- [invoice] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-25T12:11:59.218+02:00  INFO 37568 --- [invoice] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-25T12:11:59.259+02:00  INFO 37568 --- [invoice] [http-nio-8080-exec-1] c.d.i.controller.InvoiceController       : Getting all invoices with pagination: Page request [number: 0, size 20, sort: UNSORTED]
+2025-06-25T12:11:59.427+02:00  WARN 37568 --- [invoice] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2025-06-25T12:12:03.018+02:00  INFO 37568 --- [invoice] [http-nio-8080-exec-3] c.d.i.controller.InvoiceController       : Getting all invoices with pagination: Page request [number: 0, size 20, sort: UNSORTED]
+2025-06-25T12:12:13.863+02:00  INFO 37568 --- [invoice] [http-nio-8080-exec-5] c.d.i.controller.InvoiceController       : Creating new invoice
+2025-06-25T12:12:13.897+02:00  INFO 37568 --- [invoice] [http-nio-8080-exec-5] c.d.i.controller.InvoiceController       : Invoice created with id: 1
+2025-06-25T12:12:13.905+02:00  INFO 37568 --- [invoice] [http-nio-8080-exec-4] c.d.i.controller.InvoiceController       : Getting all invoices with pagination: Page request [number: 0, size 20, sort: UNSORTED]
+2025-06-25T12:12:30.619+02:00  INFO 37568 --- [invoice] [http-nio-8080-exec-6] c.d.i.controller.InvoiceController       : Creating new invoice
+2025-06-25T12:12:30.621+02:00  INFO 37568 --- [invoice] [http-nio-8080-exec-6] c.d.i.controller.InvoiceController       : Invoice created with id: 2
+2025-06-25T12:12:30.634+02:00  INFO 37568 --- [invoice] [http-nio-8080-exec-7] c.d.i.controller.InvoiceController       : Getting all invoices with pagination: Page request [number: 0, size 20, sort: UNSORTED]
